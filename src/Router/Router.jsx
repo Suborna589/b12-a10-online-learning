@@ -11,6 +11,9 @@ import AuthLayout from "../Layouts/AuthLayout/AuthLayout";
 
 import SignIn from "../Components/SignIn/SignIn";
 import HomeLayout from "../Layouts/HomeLayout/HomeLayout";
+import Profile from "../Pages/Profile/Profile";
+import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
+import ForgotPassword from "../Pages/ForgotPassword/ForgotPassword";
 
 const router = createBrowserRouter([
 
@@ -30,21 +33,21 @@ const router = createBrowserRouter([
     },  
 
 
-            // {
-            //     path:"/profile",
-            //     element:<Profile></Profile>
-            // }, 
+            {
+                path:"/profile",
+                element:<Profile></Profile>
+            }, 
 
-            // {
-            //     path:'/update-profile',
-            //     element:<UpdateProfile></UpdateProfile>,
-            // }, 
+            {
+                path:'/update-profile',
+                element:<UpdateProfile></UpdateProfile>,
+            }, 
 
 
-            // {
-            //     path:"/forgot-password" ,
-            //     element:<ForgotPassword></ForgotPassword>
-            // },
+            {
+                path:"/forgot-password" ,
+                element:<ForgotPassword></ForgotPassword>
+            },
 
 
 

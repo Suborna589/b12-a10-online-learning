@@ -33,8 +33,8 @@ const SocialSignIn = () => {
         <div>
            <ToastContainer  position="top-right"  />
 
-          <button onClick={handleGoogleSignIn} className='flex justify-center items-center gap-2 btn w-52  ml-40'><FcGoogle className='ml-1 text-2xl text-blue-700   rounded-xl  '></FcGoogle> 
-          <p className='text-amber-600'>Sign Google</p>
+          <button onClick={handleGoogleSignIn} className='flex justify-center items-center ml-48  mb-8 bg-gradient-to-r from-blue-200 to-cyan-200 w-14 h-14 rounded-full  text-center shadow-3xl pr-1  '><FcGoogle className='ml-1 text-2xl text-blue-700   rounded-xl  '></FcGoogle> 
+        
           </button>
             
         </div>
